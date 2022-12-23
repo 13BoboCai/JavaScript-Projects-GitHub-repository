@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p id="global" onclick="GlobalFunction()">Global variables are declared outside of functions,
+        Please click to see the function of global variable</p>
+    <p id="local" onclick="LocalFunction()">Local variables are declared inside of functions,Please click to see the function of local scope variable</p>
+    <p id="Incorrect" onclick=" Error_Generated()">ERROR!!</p>
+    <p id="date" onclick="showDate()">See the date</p>
+    <p id="Result" onclick="Show_Result()">Click to see the position I got</p>
+
+    <p>See your food</p>
+    <input type="text" id="myFood">
+    <p id="FavouriteFood"></p>
+    <button onclick="Food()">Check</button>
+    <br>
+
+    <p id="Time_of_day"></p>
+    <button onclick = "Time_function()">Click here to get the time</button>
+    <script src="JS/main.js"></script>
+</body>
+
+</html>
